@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="All Rights Reserved"
+issueTrackerURL="https://github.com/rapurasuu/McRPG/issues"
+
+[[mods]]
+modId="mcrpg"
+version="${file.jarVersion}"
+displayName="McRPG"
+displayURL="https://github.com/rapurasuu/McRPG"
+logoFile="McRPG.png"
+authors="Rapurasu"
+description='''
+This Mod is a Singleplayer Version of the popular MCMMO plugin (https://mcmmo.org/#home)
+This is a fanmade mod and is programmed completly independet from the MCMMO plugin.
+I only took insperation from it and wanted to use it in a Singleplayer World
+'''
+
+[[dependencies.mcrpg]]
+modId="forge"
+mandatory=true
+versionRange="[37,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mcrpg]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.17.1,1.18)"
+ordering="NONE"
+side="BOTH"
