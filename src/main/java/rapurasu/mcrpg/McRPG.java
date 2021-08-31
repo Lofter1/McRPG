@@ -24,5 +24,6 @@ public class McRPG{
 
     public McRPG() {
         LOGGER.info("McRPG Constructor Entered");
+        // Lazy Boi
     }
 }
